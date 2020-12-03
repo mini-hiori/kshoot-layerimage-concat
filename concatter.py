@@ -3,7 +3,7 @@ import numpy as np
 import glob
 
 def image_concatter(target_path):
-    # 同一ディレクトリの画像読み込み
+    # 指定ディレクトリの画像読み込み
     imagelist = glob.glob(r"{}\*.bmp".format(target_path))
     print(imagelist)
     # 同一ディレクトリ画像リストをソート
